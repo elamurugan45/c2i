@@ -19,7 +19,7 @@
 .cardbox {
     display: flex;
     height: 178px;
-    width: 400px;
+    width: 369px;
     align-items: center;
     gap: 64px;
     flex: 1 0 0;
@@ -34,4 +34,42 @@
     font-size: 51px;
     font-style: normal;
     font-weight: 500;
+}
+
+.text-color {
+    margin-top: 10%;
+  border-radius: 64px;
+  background: var(
+    --light-custom-background-primary-background,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.88) 0%,
+      rgba(255, 255, 255, 0.88) 100%
+    ),
+    #9155FD
+  );
+  color: var(#9155FD);
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.14px;
+}
+
+.image-size{
+width: 80px;
+height: 80px;position: absolute;
+left: 226px;
+top: 89px;
+margin-top: -125%;
+}
+
+.card-gap{
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 44px;
+align-self: stretch;
 }
