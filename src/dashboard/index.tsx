@@ -9,7 +9,12 @@ export const Dashboard = () => {
         Welcome to Connect2Investors!
       </Row>
       <Row className="content-space">
-        <Col span={8}>
+        <Col  span={7}
+          xs={24}
+          xl={8}
+          sm={24}
+          md={24}
+          lg={8}>
           <Card className="cardbox">
             <Row className="text-font">No.Of.Investor</Row>
             <Row className="num-size">20</Row>
@@ -25,7 +30,12 @@ export const Dashboard = () => {
             </Col>
           </Card>
         </Col>
-        <Col span={8}>
+        <Col  span={7}
+          xs={24}
+          xl={8}
+          sm={24}
+          md={24}
+          lg={8}>
           <Card className="cardbox">
             <Row className="text-font">No.Of.Investor</Row>
             <Row className="num-size">20</Row>
@@ -41,7 +51,12 @@ export const Dashboard = () => {
             </Col>
           </Card>
         </Col>
-        <Col span={8}>
+        <Col  span={7}
+          xs={24}
+          xl={8}
+          sm={24}
+          md={24}
+          lg={8}>
           <Card className="cardbox">
             <Row className="text-font">No.Of.Investor</Row>
             <Row className="num-size">20</Row>
@@ -119,19 +134,6 @@ export const Dashboard = () => {
               <Tag color="warning">Avg</Tag>
             </td>
           </tr>
-          {/* <tr>
-            <td><Row>
-                <Col span={5} className="table-col-align">
-                <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel&key=3" />
-                </Col>
-                <Col span={19}>
-                    <h5>Meeting with Mark</h5>
-                    <p><CalendarOutlined /> 21 Jul | 08:20-10:30</p>
-                </Col>
-                </Row></td>
-            <td className="table-para"><p>a list of topics, action items, and activities you want to discuss during the meeting</p></td>
-            <td  style={{textAlign:'center'}}><Tag color="#108EE9">Avg</Tag></td>
-          </tr> */}
         </table>
       </Card>
     </>
